@@ -115,4 +115,4 @@ async def monitor_market():
 
 monitor_market.start()
 
-bot.run("YOUR_NEW_TOKEN_HERE")
+bot.run("MTM4MjAyOTI1MDA4MDUzODY1NA.GUVpgg.6ZpiAOhSomh2FWw65QBglo0OKvG_hLDIBWBBj0")
