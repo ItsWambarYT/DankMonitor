@@ -113,9 +113,6 @@ async def monitor_market():
     listing_id = f"{random.randint(100000,999999)}"
     await send_market_alert(channel, item, price, listing_id)
 
-@bot.event
-async def on_ready():
-    print(f'Logged in as {bot.user}')
-    monitor_market.start()
+monitor_market.start()
 
-bot.run("MTM4MjAyOTI1MDA4MDUzODY1NA.GUVpgg.6ZpiAOhSomh2FWw65QBglo0OKvG_hLDIBWBBj0")
+bot.run("YOUR_NEW_TOKEN_HERE")
